@@ -1,8 +1,5 @@
 # biblemateagent
-
 A headless version of BibleMate AI Agent Mode
-
-Support 
 
 ## Installation
 
@@ -45,7 +42,3 @@ or
 Run, for example:
 
 > bibleagent -b ollamacloud -m gemini-3-flash-preview -mt 8192 -cw 200000 -docx "In-depth study of John 3:16"
-
-# BibleMate AI Suite
-
-Check out the BibleMate AI Suite at https://github.com/eliranwong/biblemate
