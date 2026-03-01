@@ -2,7 +2,7 @@
 
 A headless version of BibleMate AI Agent Mode
 
-Support 
+Support md and docx export 
 
 ## Installation
 
