@@ -27,7 +27,7 @@ def do_export(content, filename, md_export=True, docx_export=False, output_direc
         md_filepath = os.path.join(output_directory, f"{filename}.md")
         with open(md_filepath, "w", encoding="utf-8") as f:
             f.write(content)
-        print(f"Exported to: {md_filepath}")
+        print(f"\n\n---\n\nExported to: {md_filepath}\n\n---\n")
     
     if docx_export:
         if not shutil.which("pandoc"):
@@ -36,7 +36,7 @@ def do_export(content, filename, md_export=True, docx_export=False, output_direc
         try:
             docx_filepath = os.path.join(output_directory, f"{filename}.docx")
             pypandoc.convert_text(content, 'docx', format='md', outputfile=docx_filepath)
-            print(f"Exported to: {docx_filepath}")
+            print(f"\n\n---\n\nExported to: {docx_filepath}\n\n---\n")
         except ImportError:
             print("pypandoc not installed. Skipping DOCX export.")
         except Exception as e:
@@ -95,8 +95,8 @@ Please provide a comprehensive response that resolves my original request, ensur
     if not MASTER_USER_REQUEST or not MASTER_USER_REQUEST.strip():
         print("Please provide a request.")
         return None
-
-    timestamp = getCurrentDateTime()
+    
+    # generate title
     generated_title = ""
     generated_title_output = agentmake(
         MASTER_USER_REQUEST,
@@ -110,13 +110,18 @@ Please provide a comprehensive response that resolves my original request, ensur
         temperature=kwargs.get("temperature", None),
         print_on_terminal=False,
     )
+    timestamp = getCurrentDateTime()
     if generated_title_output:
         generated_title = generated_title_output[-1].get("content", "").strip().replace("Title: ", "")
-        print(f"\n[TITLE] {generated_title}\n")
-        study_directory = f"{timestamp}_{generated_title}"
-        output_directory = os.path.join(output_directory, study_directory)
+        if not generated_title == "[NO_CONTENT]":
+            print(f"\n[TITLE] {generated_title}\n")
+            study_directory = f"{timestamp}_{generated_title}"
+            output_directory = os.path.join(output_directory, study_directory)
+        else:
+            study_directory = f"{timestamp}_biblemate_study"
+            output_directory = os.path.join(output_directory, study_directory)
     else:
-        study_directory = f"{timestamp}_bible_study"
+        study_directory = f"{timestamp}_biblemate_study"
         output_directory = os.path.join(output_directory, study_directory)
 
     print(f"\n[REQUEST] {MASTER_USER_REQUEST}\n")

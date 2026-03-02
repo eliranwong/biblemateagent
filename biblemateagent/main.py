@@ -1,4 +1,4 @@
-import asyncio, argparse
+import asyncio, argparse, sys
 from agentmake import SUPPORTED_AI_BACKENDS, DEFAULT_AI_BACKEND
 from biblemateagent.agent import bible_agent
 
@@ -30,8 +30,15 @@ async def main_async():
     kwargs["context_window"] = args.context_window if args.context_window else None
     kwargs["temperature"] = args.temperature if args.temperature else None
     
+    user_requests = []
+    if args.default is not None:
+        user_requests.append(" ".join(args.default))
+    stdin_text = sys.stdin.read() if not sys.stdin.isatty() else ""
+    if stdin_text:
+        user_requests.append(stdin_text.strip())
+    
     await bible_agent(
-        request=" ".join(args.default),
+        request="\n\n".join(user_requests) if user_requests else "",
         language=args.language if args.language else "eng",
         improve_prompt=args.improve_prompt if args.improve_prompt else False,
         md_export=args.md_export if args.md_export else False,
