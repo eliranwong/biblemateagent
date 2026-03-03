@@ -70,6 +70,8 @@ Stdin input is also supported:
 echo "In-depth study of John 3:16" | bibleagent -b ollamacloud -m gemini-3-flash-preview -cw 1048576 -mt 65536 -docx
 ```
 
+
+
 # BibleMate AI Suite
 
 Check out the BibleMate AI Suite at https://github.com/eliranwong/biblemate
