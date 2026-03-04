@@ -128,6 +128,7 @@ Please provide a comprehensive response that resolves my original request, ensur
 
     MESSAGES = deepcopy(DEFAULT_MESSAGES)
 
+    original_user_request = MASTER_USER_REQUEST
     if improve_prompt:
         print("\n--- Improving Prompt ---\n")
         user_request = await stream_output(
@@ -164,7 +165,10 @@ Please provide a comprehensive response that resolves my original request, ensur
     if md_export or docx_export:
         filename = f"00_request_and_master_plan"
         content = f"# Title\n\n{generated_title}\n\n" if generated_title else ""
-        content += f"# Request\n\n{MASTER_USER_REQUEST}\n\n# Master Plan\n\n{MASTER_PLAN}"
+        if original_user_request == MASTER_USER_REQUEST:
+            content += f"# Request\n\n{MASTER_USER_REQUEST}\n\n# Master Plan\n\n{MASTER_PLAN}"
+        else:
+            content += f"# Original Request\n\n{original_user_request}\n\n# Refined Request\n\n{MASTER_USER_REQUEST}\n\n# Master Plan\n\n{MASTER_PLAN}"
         do_export(content, filename, md_export, docx_export, output_directory)
 
     PROGRESS_STATUS = "START"

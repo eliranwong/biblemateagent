@@ -2,7 +2,7 @@ from setuptools import setup
 from setuptools.command.install import install
 import os, shutil, platform, sys
 
-version = "1.0.5"
+version = "1.0.6"
 with open(os.path.join("biblemateagent", "version.txt"), "w", encoding="utf-8") as fileObj:
     fileObj.write(version)
 
