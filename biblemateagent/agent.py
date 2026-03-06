@@ -257,7 +257,16 @@ Please provide a comprehensive response that resolves my original request, ensur
                 if md_export or docx_export:
                     round_str = f"{ROUND:02}"
                     filename = f"{round_str}_{selected_tool}"
-                    do_export(answers, filename, md_export, docx_export, output_directory)
+                    export_content = f"""---
+
+{user_request}
+
+---
+
+{answers}
+
+---"""
+                    do_export(export_content, filename, md_export, docx_export, output_directory)
                 MESSAGES += [
                     {"role": "user", "content": f"[ROUND {ROUND}]\n\n{user_request}"},
                     {"role": "assistant", "content": f"[TOOL] {selected_tool}\n\n[RESPONSE]\n\n{answers}"},
