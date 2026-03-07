@@ -1,0 +1,195 @@
+---
+
+Retrieve cross-references for Galatians 5:22, Romans 5:1, and Philippians 4:6-7.
+
+---
+
+## Cross References - Gal 5:22
+
+- (`Gal 5:22`) But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness,
+- (`Col 3:12-17`) 12 Therefore, as the elect of God, holy and dearly loved, clothe yourselves with a heart of mercy, kindness, humility, gentleness, and patience, 13 bearing with one another and forgiving one another, if someone happens to have a complaint against anyone else. Just as the Lord has forgiven you, so you also forgive others. 14 And to all these virtues add love, which is the perfect bond. 15 Let the peace of Christ be in control in your heart (for you were in fact called as one body to this peace), and be thankful. 16 Let the word of Christ dwell in you richly, teaching and exhorting one another with all wisdom, singing psalms, hymns, and spiritual songs, all with grace in your hearts to God. 17 And whatever you do in word or deed, do it all in the name of the Lord Jesus, giving thanks to God the Father through him.
+- (`1Cor 13:4-7`) 4 Love is patient, love is kind, it is not envious. Love does not brag, it is not puffed up. 5 It is not rude, it is not self-serving, it is not easily angered or resentful. 6 It is not glad about injustice, but rejoices in the truth. 7 It bears all things, believes all things, hopes all things, endures all things.
+- (`John 15:5`) “I am the vine; you are the branches. The one who remains in me – and I in him – bears much fruit, because apart from me you can accomplish nothing.
+- (`Eph 5:9`) for the fruit of the light consists in all goodness, righteousness, and truth –
+- (`John 15:2`) He takes away every branch that does not bear fruit in me. He prunes every branch that bears fruit so that it will bear more fruit.
+- (`Jas 3:17-18`) 17 But the wisdom from above is first pure, then peaceable, gentle, accommodating, full of mercy and good fruit, impartial, and not hypocritical. 18 And the fruit that consists of righteousness is planted in peace among those who make peace.
+- (`Phil 4:4-9`) 4 Rejoice in the Lord always. Again I say, rejoice! 5 Let everyone see your gentleness. The Lord is near! 6 Do not be anxious about anything. Instead, in every situation, through prayer and petition with thanksgiving, tell your requests to God. 7 And the peace of God that surpasses all understanding will guard your hearts and minds in Christ Jesus. 8 Finally, brothers and sisters, whatever is true, whatever is worthy of respect, whatever is just, whatever is pure, whatever is lovely, whatever is commendable, if something is excellent or praiseworthy, think about these things. 9 And what you learned and received and heard and saw in me, do these things. And the God of peace will be with you.
+- (`Ps 1:3`) He is like a tree planted by flowing streams; it yields its fruit at the proper time, and its leaves never fall off. He succeeds in everything he attempts.
+- (`John 15:16`) You did not choose me, but I chose you and appointed you to go and bear fruit, fruit that remains, so that whatever you ask the Father in my name he will give you.
+- (`1John 4:7-16`) 7 Dear friends, let us love one another, because love is from God, and everyone who loves has been fathered by God and knows God. 8 The person who does not love does not know God, because God is love. 9 By this the love of God is revealed in us: that God has sent his one and only Son into the world so that we may live through him. 10 In this is love: not that we have loved God, but that he loved us and sent his Son to be the atoning sacrifice for our sins. 11 Dear friends, if God so loved us, then we also ought to love one another. 12 No one has seen God at any time. If we love one another, God resides in us, and his love is perfected in us. 13 By this we know that we reside in God and he in us: in that he has given us of his Spirit. 14 And we have seen and testify that the Father has sent the Son to be the Savior of the world. 15 If anyone confesses that Jesus is the Son of God, God resides in him and he in God. 16 And we have come to know and to believe the love that God has in us. God is love, and the one who resides in love resides in God, and God resides in him.
+- (`1Pet 1:22`) You have purified your souls by obeying the truth in order to show sincere mutual love. So love one another earnestly from a pure heart.
+- (`Rom 12:9-18`) 9 Love must be without hypocrisy. Abhor what is evil, cling to what is good. 10 Be devoted to one another with mutual love, showing eagerness in honoring one another. 11 Do not lag in zeal, be enthusiastic in spirit, serve the Lord. 12 Rejoice in hope, endure in suffering, persist in prayer. 13 Contribute to the needs of the saints, pursue hospitality. 14 Bless those who persecute you, bless and do not curse. 15 Rejoice with those who rejoice, weep with those who weep. 16 Live in harmony with one another; do not be haughty but associate with the lowly. Do not be conceited. 17 Do not repay anyone evil for evil; consider what is good before all people. 18 If possible, so far as it depends on you, live peaceably with all people.
+- (`Luke 8:14-15`) 14 As for the seed that fell among thorns, these are the ones who hear, but as they go on their way they are choked by the worries and riches and pleasures of life, and their fruit does not mature. 15 But as for the seed that landed on good soil, these are the ones who, after hearing the word, cling to it with an honest and good heart, and bear fruit with steadfast endurance.
+- (`Ps 92:14`) They bear fruit even when they are old; they are filled with vitality and have many leaves.
+- (`Phil 1:11`) filled with the fruit of righteousness that comes through Jesus Christ to the glory and praise of God.
+- (`Gal 5:13`) For you were called to freedom, brothers and sisters; only do not use your freedom as an opportunity to indulge your flesh, but through love serve one another.
+- (`Rom 7:4`) So, my brothers and sisters, you also died to the law through the body of Christ, so that you could be joined to another, to the one who was raised from the dead, to bear fruit to God.
+- (`2Pet 1:5-8`) 5 For this very reason, make every effort to add to your faith excellence, to excellence, knowledge; 6 to knowledge, self-control; to self-control, perseverance; to perseverance, godliness; 7 to godliness, brotherly affection; to brotherly affection, unselfish love. 8 For if these things are really yours and are continually increasing, they will keep you from becoming ineffective and unproductive in your pursuit of knowing our Lord Jesus Christ more intimately.
+- (`1Pet 1:8`) You have not seen him, but you love him. You do not see him now but you believe in him, and so you rejoice with an indescribable and glorious joy,
+- (`Col 1:10`) so that you may live worthily of the Lord and please him in all respects – bearing fruit in every good deed, growing in the knowledge of God,
+- (`Eph 4:23-5:2`) 23 to be renewed in the spirit of your mind, 24 and to put on the new man who has been created in God’s image – in righteousness and holiness that comes from truth. 25 Therefore, having laid aside falsehood, each one of you speak the truth with his neighbor, because we are members of one another. 26 Be angry and do not sin; do not let the sun go down on the cause of your anger. 27 Do not give the devil an opportunity. 28 The one who steals must steal no longer; instead he must labor, doing good with his own hands, so that he will have something to share with the one who has need. 29 You must let no unwholesome word come out of your mouth, but only what is beneficial for the building up of the one in need, that it would give grace to those who hear. 30 And do not grieve the Holy Spirit of God, by whom you were sealed for the day of redemption. 31 You must put away all bitterness, anger, wrath, quarreling, and slanderous talk – indeed all malice. 32 Instead, be kind to one another, compassionate, forgiving one another, just as God in Christ also forgave you. 1 Therefore, be imitators of God as dearly loved children 2 and live in love, just as Christ also loved us and gave himself for us, a sacrificial and fragrant offering to God.
+- (`Gal 5:16-18`) 16 But I say, live by the Spirit and you will not carry out the desires of the flesh. 17 For the flesh has desires that are opposed to the Spirit, and the Spirit has desires that are opposed to the flesh, for these are in opposition to each other, so that you cannot do what you want. 18 But if you are led by the Spirit, you are not under the law.
+- (`1Cor 13:13`) And now these three remain: faith, hope, and love. But the greatest of these is love.
+- (`Matt 12:33`) “Make a tree good and its fruit will be good, or make a tree bad and its fruit will be bad, for a tree is known by its fruit.
+- (`Rom 5:1-5`) 1 Therefore, since we have been declared righteous by faith, we have peace with God through our Lord Jesus Christ, 2 through whom we have also obtained access by faith into this grace in which we stand, and we rejoice in the hope of God’s glory. 3 Not only this, but we also rejoice in sufferings, knowing that suffering produces endurance, 4 and endurance, character, and character, hope. 5 And hope does not disappoint, because the love of God has been poured out in our hearts through the Holy Spirit who was given to us.
+- (`1Tim 4:12`) Let no one look down on you because you are young, but set an example for the believers in your speech, conduct, love, faithfulness, and purity.
+- (`1Thess 5:10-22`) 10 He died for us so that whether we are alert or asleep we will come to life together with him. 11 Therefore encourage one another and build up each other, just as you are in fact doing. 12 Now we ask you, brothers and sisters, to acknowledge those who labor among you and preside over you in the Lord and admonish you, 13 and to esteem them most highly in love because of their work. Be at peace among yourselves. 14 And we urge you, brothers and sisters, admonish the undisciplined, comfort the discouraged, help the weak, be patient toward all. 15 See that no one pays back evil for evil to anyone, but always pursue what is good for one another and for all. 16 Always rejoice, 17 constantly pray, 18 in everything give thanks. For this is God’s will for you in Christ Jesus. 19 Do not extinguish the Spirit. 20 Do not treat prophecies with contempt. 21 But examine all things; hold fast to what is good. 22 Stay away from every form of evil.
+- (`1Thess 1:3-10`) 3 because we recall in the presence of our God and Father your work of faith and labor of love and endurance of hope in our Lord Jesus Christ. 4 We know, brothers and sisters loved by God, that he has chosen you, 5 in that our gospel did not come to you merely in words, but in power and in the Holy Spirit and with deep conviction (surely you recall the character we displayed when we came among you to help you). 6 And you became imitators of us and of the Lord, when you received the message with joy that comes from the Holy Spirit, despite great affliction. 7 As a result you became an example to all the believers in Macedonia and in Achaia. 8 For from you the message of the Lord has echoed forth not just in Macedonia and Achaia, but in every place reports of your faith in God have spread, so that we do not need to say anything. 9 For people everywhere report how you welcomed us and how you turned to God from idols to serve the living and true God 10 and to wait for his Son from heaven, whom he raised from the dead, Jesus our deliverer from the coming wrath.
+- (`Rom 15:14`) But I myself am fully convinced about you, my brothers and sisters, that you yourselves are full of goodness, filled with all knowledge, and able to instruct one another.
+- (`Rom 6:22`) But now, freed from sin and enslaved to God, you have your benefit leading to sanctification, and the end is eternal life.
+- (`Matt 7:16-20`) 16 You will recognize them by their fruit. Grapes are not gathered from thorns or figs from thistles, are they? 17 In the same way, every good tree bears good fruit, but the bad tree bears bad fruit. 18 A good tree is not able to bear bad fruit, nor a bad tree to bear good fruit. 19 Every tree that does not bear good fruit is cut down and thrown into the fire. 20 So then, you will recognize them by their fruit.
+- (`1Pet 5:12`) Through Silvanus, whom I know to be a faithful brother, I have written to you briefly, in order to encourage you and testify that this is the true grace of God. Stand fast in it.
+- (`Titus 2:2-12`) 2 Older men are to be temperate, dignified, self-controlled, sound in faith, in love, and in endurance. 3 Older women likewise are to exhibit behavior fitting for those who are holy, not slandering, not slaves to excessive drinking, but teaching what is good. 4 In this way they will train the younger women to love their husbands, to love their children, 5 to be self-controlled, pure, fulfilling their duties at home, kind, being subject to their own husbands, so that the message of God may not be discredited. 6 Encourage younger men likewise to be self-controlled, 7 showing yourself to be an example of good works in every way. In your teaching show integrity, dignity, 8 and a sound message that cannot be criticized, so that any opponent will be at a loss, because he has nothing evil to say about us. 9 Slaves are to be subject to their own masters in everything, to do what is wanted and not talk back, 10 not pilfering, but showing all good faith, in order to bring credit to the teaching of God our Savior in everything. 11 For the grace of God has appeared, bringing salvation to all people. 12 It trains us to reject godless ways and worldly desires and to live self-controlled, upright, and godly lives in the present age,
+- (`Rom 15:3`) For even Christ did not please himself, but just as it is written, “The insults of those who insult you have fallen on me.”
+- (`Hos 14:8`) O Ephraim, I do not want to have anything to do with idols anymore! I will answer him and care for him. I am like a luxuriant cypress tree; your fruitfulness comes from me!
+- (`2Thess 3:2`) and that we may be delivered from perverse and evil people. For not all have faith.
+- (`Luke 13:9`) Then if it bears fruit next year, very well, but if not, you can cut it down.’”
+- (`1Tim 3:11`) Likewise also their wives must be dignified, not slanderous, temperate, faithful in every respect.
+
+---
+
+## Cross References - Rom 5:1
+
+- (`Rom 5:1`) Therefore, since we have been declared righteous by faith, we have peace with God through our Lord Jesus Christ,
+- (`Rom 15:13`) Now may the God of hope fill you with all joy and peace as you believe in him, so that you may abound in hope by the power of the Holy Spirit.
+- (`Rom 6:23`) For the payoff of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.
+- (`Isa 32:17`) Fairness will produce peace and result in lasting security.
+- (`Rom 14:17`) For the kingdom of God does not consist of food and drink, but righteousness, peace, and joy in the Holy Spirit.
+- (`Acts 13:38-39`) 38 Therefore let it be known to you, brothers, that through this one forgiveness of sins is proclaimed to you, 39 and by this one everyone who believes is justified from everything from which the law of Moses could not justify you.
+- (`John 14:27`) “Peace I leave with you; my peace I give to you; I do not give it to you as the world does. Do not let your hearts be distressed or lacking in courage.
+- (`2Thess 3:16`) Now may the Lord of peace himself give you peace at all times and in every way. The Lord be with you all.
+- (`Col 3:15`) Let the peace of Christ be in control in your heart (for you were in fact called as one body to this peace), and be thankful.
+- (`Col 1:20`) and through him to reconcile all things to himself by making peace through the blood of his cross – through him, whether things on earth or things in heaven.
+- (`Eph 2:14-17`) 14 For he is our peace, the one who made both groups into one and who destroyed the middle wall of partition, the hostility, 15 when he nullified in his flesh the law of commandments in decrees. He did this to create in himself one new man out of two, thus making peace, 16 and to reconcile them both in one body to God through the cross, by which the hostility has been killed. 17 And he came and preached peace to you who were far off and peace to those who were near,
+- (`2Cor 5:18-20`) 18 And all these things are from God who reconciled us to himself through Christ, and who has given us the ministry of reconciliation. 19 In other words, in Christ God was reconciling the world to himself, not counting people’s trespasses against them, and he has given us the message of reconciliation. 20 Therefore we are ambassadors for Christ, as though God were making his plea through us. We plead with you on Christ’s behalf, “Be reconciled to God!”
+- (`Rom 15:33`) Now may the God of peace be with all of you. Amen.
+- (`Rom 5:9-10`) 9 Much more then, because we have now been declared righteous by his blood, we will be saved through him from God’s wrath. 10 For if while we were enemies we were reconciled to God through the death of his Son, how much more, since we have been reconciled, will we be saved by his life?
+- (`Rom 4:5`) But to the one who does not work, but believes in the one who declares the ungodly righteous, his faith is credited as righteousness.
+- (`Rom 1:7`) To all those loved by God in Rome, called to be saints: Grace and peace to you from God our Father and the Lord Jesus Christ!
+- (`Acts 10:36`) You know the message he sent to the people of Israel, proclaiming the good news of peace through Jesus Christ (he is Lord of all) –
+- (`John 16:33`) I have told you these things so that in me you may have peace. In the world you have trouble and suffering, but take courage – I have conquered the world.”
+- (`Luke 19:42`) saying, “If you had only known on this day, even you, the things that make for peace! But now they are hidden from your eyes.
+- (`Luke 19:38`) “Blessed is the king who comes in the name of the Lord! Peace in heaven and glory in the highest!”
+- (`Luke 10:5-6`) 5 Whenever you enter a house, first say, ‘May peace be on this house!’ 6 And if a peace-loving person is there, your peace will remain on him, but if not, it will return to you.
+- (`Isa 57:19-21`) 19 I am the one who gives them reason to celebrate. Complete prosperity is available both to those who are far away and those who are nearby,” says the Lord, “and I will heal them. 20 But the wicked are like a surging sea that is unable to be quiet; its waves toss up mud and sand. 21 There will be no prosperity,” says my God, “for the wicked.”
+- (`Isa 27:5`) unless they became my subjects and made peace with me; let them make peace with me.
+- (`Ps 85:8-10`) 8 I will listen to what God the Lord says. For he will make peace with his people, his faithful followers. Yet they must not return to their foolish ways. 9 Certainly his loyal followers will soon experience his deliverance; then his splendor will again appear in our land. 10 Loyal love and faithfulness meet; deliverance and peace greet each other with a kiss.
+- (`1Thess 5:23`) Now may the God of peace himself make you completely holy and may your spirit and soul and body be kept entirely blameless at the coming of our Lord Jesus Christ.
+- (`Phil 3:9`) and be found in him, not because I have my own righteousness derived from the law, but because I have the righteousness that comes by way of Christ’s faithfulness – a righteousness from God that is in fact based on Christ’s faithfulness.
+- (`Rom 1:17`) For the righteousness of God is revealed in the gospel from faith to faith, just as it is written, “The righteous by faith will live.”
+- (`Hab 2:4`) Look, the one whose desires are not upright will faint from exhaustion, but the person of integrity will live because of his faithfulness.
+- (`Isa 54:13`) All your children will be followers of the Lord, and your children will enjoy great prosperity.
+- (`Jas 2:23-26`) 23 And the scripture was fulfilled that says, “Now Abraham believed God and it was counted to him for righteousness,” and he was called God’s friend. 24 You see that a person is justified by works and not by faith alone. 25 And similarly, was not Rahab the prostitute also justified by works when she welcomed the messengers and sent them out by another way? 26 For just as the body without the spirit is dead, so also faith without works is dead.
+- (`Heb 13:20`) Now may the God of peace who by the blood of the eternal covenant brought back from the dead the great shepherd of the sheep, our Lord Jesus,
+- (`Eph 2:7`) to demonstrate in the coming ages the surpassing wealth of his grace in kindness toward us in Christ Jesus.
+- (`Gal 5:4-6`) 4 You who are trying to be declared righteous by the law have been alienated from Christ; you have fallen away from grace! 5 For through the Spirit, by faith, we wait expectantly for the hope of righteousness. 6 For in Christ Jesus neither circumcision nor uncircumcision carries any weight – the only thing that matters is faith working through love.
+- (`Gal 3:25`) But now that faith has come, we are no longer under a guardian.
+- (`Gal 3:11-14`) 11 Now it is clear no one is justified before God by the law, because the righteous one will live by faith. 12 But the law is not based on faith, but the one who does the works of the law will live by them. 13 Christ redeemed us from the curse of the law by becoming a curse for us (because it is written, “Cursed is everyone who hangs on a tree”) 14 in order that in Christ Jesus the blessing of Abraham would come to the Gentiles, so that we could receive the promise of the Spirit by faith.
+- (`Gal 2:16`) yet we know that no one is justified by the works of the law but by the faithfulness of Jesus Christ. And we have come to believe in Christ Jesus, so that we may be justified by the faithfulness of Christ and not by the works of the law, because by the works of the law no one will be justified.
+- (`Rom 10:15`) And how are they to preach unless they are sent? As it is written, “How timely is the arrival of those who proclaim the good news.”
+- (`Rom 10:10`) For with the heart one believes and thus has righteousness and with the mouth one confesses and thus has salvation.
+- (`Rom 9:30`) What shall we say then? – that the Gentiles who did not pursue righteousness obtained it, that is, a righteousness that is by faith,
+- (`Rom 5:18`) Consequently, just as condemnation for all people came through one transgression, so too through the one righteous act came righteousness leading to life for all people.
+- (`Rom 4:24-25`) 24 but also for our sake, to whom it will be credited, those who believe in the one who raised Jesus our Lord from the dead. 25 He was given over because of our transgressions and was raised for the sake of our justification.
+- (`Rom 3:30`) Since God is one, he will justify the circumcised by faith and the uncircumcised through faith.
+- (`Rom 3:26-28`) 26 This was also to demonstrate his righteousness in the present time, so that he would be just and the justifier of the one who lives because of Jesus’ faithfulness. 27 Where, then, is boasting? It is excluded! By what principle? Of works? No, but by the principle of faith! 28 For we consider that a person is declared righteous by faith apart from the works of the law.
+- (`Rom 3:22`) namely, the righteousness of God through the faithfulness of Jesus Christ for all who believe. For there is no distinction,
+- (`John 20:31`) But these are recorded so that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in his name.
+- (`John 5:24`) “I tell you the solemn truth, the one who hears my message and believes the one who sent me has eternal life and will not be condemned, but has crossed over from death to life.
+- (`John 3:16-18`) 16 For this is the way God loved the world: He gave his one and only Son, so that everyone who believes in him will not perish but have eternal life. 17 For God did not send his Son into the world to condemn the world, but that the world should be saved through him. 18 The one who believes in him is not condemned. The one who does not believe has been condemned already, because he has not believed in the name of the one and only Son of God.
+- (`Luke 2:14`) “Glory to God in the highest, and on earth peace among people with whom he is pleased!”
+- (`Zech 6:13`) Indeed, he will build the temple of the Lord, and he will be clothed in splendor, sitting as king on his throne. Moreover, there will be a priest with him on his throne and they will see eye to eye on everything.
+- (`Isa 55:12`) Indeed you will go out with joy; you will be led along in peace; the mountains and hills will give a joyful shout before you, and all the trees in the field will clap their hands.
+- (`Ps 122:6`) Pray for the peace of Jerusalem! May those who love her prosper!
+- (`Job 21:21`) For what is his interest in his home after his death, when the number of his months has been broken off?
+
+---
+
+## Cross References - Phil 4:6
+
+- (`Phil 4:6`) Do not be anxious about anything. Instead, in every situation, through prayer and petition with thanksgiving, tell your requests to God.
+- (`Matt 6:25-33`) 25 “Therefore I tell you, do not worry about your life, what you will eat or drink, or about your body, what you will wear. Isn’t there more to life than food and more to the body than clothing? 26 Look at the birds in the sky: They do not sow, or reap, or gather into barns, yet your heavenly Father feeds them. Aren’t you more valuable than they are? 27 And which of you by worrying can add even one hour to his life? 28 Why do you worry about clothing? Think about how the flowers of the field grow; they do not work or spin. 29 Yet I tell you that not even Solomon in all his glory was clothed like one of these! 30 And if this is how God clothes the wild grass, which is here today and tomorrow is tossed into the fire to heat the oven, won’t he clothe you even more, you people of little faith? 31 So then, don’t worry saying, ‘What will we eat?’ or ‘What will we drink?’ or ‘What will we wear?’ 32 For the unconverted pursue these things, and your heavenly Father knows that you need them. 33 But above all pursue his kingdom and righteousness, and all these things will be given to you as well.
+- (`Prov 3:5-6`) 5 Trust in the Lord with all your heart, and do not rely on your own understanding. 6 Acknowledge him in all your ways, and he will make your paths straight.
+- (`1Pet 5:7`) by casting all your cares on him because he cares for you.
+- (`Ps 34:5-7`) 5 Look to him and be radiant; do not let your faces be ashamed. 6 This oppressed man cried out and the Lord heard; he saved him from all his troubles. 7 The Lord’s angel camps around the Lord’s loyal followers and delivers them.
+- (`Matt 7:7-8`) 7 “Ask and it will be given to you; seek and you will find; knock and the door will be opened for you. 8 For everyone who asks receives, and the one who seeks finds, and to the one who knocks, the door will be opened.
+- (`Matt 6:8`) Do not be like them, for your Father knows what you need before you ask him.
+- (`Luke 18:1`) Then Jesus told them a parable to show them they should always pray and not lose heart.
+- (`Eph 6:18`) With every prayer and petition, pray at all times in the Spirit, and to this end be alert, with all perseverance and petitions for all the saints.
+- (`Col 3:17`) And whatever you do in word or deed, do it all in the name of the Lord Jesus, giving thanks to God the Father through him.
+- (`Ps 62:8`) Trust in him at all times, you people! Pour out your hearts before him! God is our shelter! (Selah)
+- (`1Thess 5:17-18`) 17 constantly pray, 18 in everything give thanks. For this is God’s will for you in Christ Jesus.
+- (`Ps 55:22`) Throw your burden upon the Lord, and he will sustain you. He will never allow the godly to be shaken.
+- (`Jer 33:3`) ‘Call on me in prayer and I will answer you. I will show you great and mysterious things which you still do not know about.’
+- (`Ps 55:17`) During the evening, morning, and noontime I will lament and moan, and he will hear me.
+- (`1Sam 30:6`) David was very upset, for the men were thinking of stoning him; each man grieved bitterly over his sons and daughters. But David drew strength from the Lord his God.
+- (`Col 3:15`) Let the peace of Christ be in control in your heart (for you were in fact called as one body to this peace), and be thankful.
+- (`Prov 16:3`) Commit your works to the Lord, and your plans will be established.
+- (`Ps 51:15`) O Lord, give me the words! Then my mouth will praise you.
+- (`Col 4:2`) Be devoted to prayer, keeping alert in it with thanksgiving.
+- (`Luke 18:7`) Won’t God give justice to his chosen ones, who cry out to him day and night? Will he delay long to help them?
+- (`Luke 12:29`) So do not be overly concerned about what you will eat and what you will drink, and do not worry about such things.
+- (`Luke 12:22`) Then Jesus said to his disciples, “Therefore I tell you, do not worry about your life, what you will eat, or about your body, what you will wear.
+- (`Luke 10:41`) But the Lord answered her, “Martha, Martha, you are worried and troubled about many things,
+- (`2Chr 33:12-13`) 12 In his pain Manasseh asked the Lord his God for mercy and truly humbled himself before the God of his ancestors. 13 When he prayed to the Lord, the Lord responded to him and answered favorably his cry for mercy. The Lord brought him back to Jerusalem to his kingdom. Then Manasseh realized that the Lord is the true God.
+- (`1Sam 1:15`) But Hannah replied, “Not so, my lord! I am a woman under a great deal of stress. I haven’t drunk wine or beer. But I have poured out my soul before the Lord.
+- (`Jude 1:20-21`) 20 But you, dear friends, by building yourselves up in your most holy faith, by praying in the Holy Spirit, 21 maintain yourselves in the love of God, while anticipating the mercy of our Lord Jesus Christ that brings eternal life.
+- (`Eph 5:20`) always giving thanks to God the Father for each other in the name of our Lord Jesus Christ,
+- (`2Cor 1:11`) as you also join in helping us by prayer, so that many people may give thanks to God on our behalf for the gracious gift given to us through the help of many.
+- (`Prov 15:8`) The Lord abhors the sacrifice of the wicked, but the prayer of the upright pleases him.
+- (`1Pet 4:7`) For the culmination of all things is near. So be self-controlled and sober-minded for the sake of prayer.
+- (`Matt 10:19`) Whenever they hand you over for trial, do not worry about how to speak or what to say, for what you should say will be given to you at that time.
+- (`1Cor 7:32`) And I want you to be free from concern. An unmarried man is concerned about the things of the Lord, how to please the Lord.
+- (`Matt 13:22`) The seed sown among thorns is the person who hears the word, but worldly cares and the seductiveness of wealth choke the word, so it produces nothing.
+- (`Gen 32:7-12`) 7 Jacob was very afraid and upset. So he divided the people who were with him into two camps, as well as the flocks, herds, and camels. 8 “If Esau attacks one camp,” he thought, “then the other camp will be able to escape.” 9 Then Jacob prayed, “O God of my father Abraham, God of my father Isaac, O Lord, you said to me, ‘Return to your land and to your relatives and I will make you prosper.’ 10 I am not worthy of all the faithful love you have shown your servant. With only my walking stick I crossed the Jordan, but now I have become two camps. 11 Rescue me, I pray, from the hand of my brother Esau, for I am afraid he will come and attack me, as well as the mothers with their children. 12 But you said, ‘I will certainly make you prosper and will make your descendants like the sand on the seashore, too numerous to count.’”
+- (`1Cor 7:21`) Were you called as a slave? Do not worry about it. But if indeed you are able to be free, make the most of the opportunity.
+- (`Dan 3:16`) Shadrach, Meshach, and Abednego replied to King Nebuchadnezzar, “We do not need to give you a reply concerning this.
+- (`2Chr 32:20`) King Hezekiah and the prophet Isaiah son of Amoz prayed about this and cried out to heaven.
+- (`1Sam 7:12`) Samuel took a stone and placed it between Mizpah and Shen. He named it Ebenezer, saying, “Up to here the Lord has helped us.”
+- (`Song 2:14`) O my dove, in the clefts of the rock, in the hiding places of the mountain crags, let me see your face, let me hear your voice; for your voice is sweet, and your face is lovely.
+
+---
+
+## Cross References - Phil 4:7
+
+- (`Phil 4:7`) And the peace of God that surpasses all understanding will guard your hearts and minds in Christ Jesus.
+- (`John 14:27`) “Peace I leave with you; my peace I give to you; I do not give it to you as the world does. Do not let your hearts be distressed or lacking in courage.
+- (`Col 3:15`) Let the peace of Christ be in control in your heart (for you were in fact called as one body to this peace), and be thankful.
+- (`Isa 26:3`) You keep completely safe the people who maintain their faith, for they trust in you.
+- (`John 16:33`) I have told you these things so that in me you may have peace. In the world you have trouble and suffering, but take courage – I have conquered the world.”
+- (`2Thess 3:16`) Now may the Lord of peace himself give you peace at all times and in every way. The Lord be with you all.
+- (`Eph 3:19`) and thus to know the love of Christ that surpasses knowledge, so that you will be filled up to all the fullness of God.
+- (`Rom 15:13`) Now may the God of hope fill you with all joy and peace as you believe in him, so that you may abound in hope by the power of the Holy Spirit.
+- (`Rom 8:6`) For the outlook of the flesh is death, but the outlook of the Spirit is life and peace,
+- (`Prov 6:22`) When you walk about, they will guide you; when you lie down, they will watch over you; when you wake up, they will talk to you.
+- (`Isa 48:18`) If only you had obeyed my commandments, prosperity would have flowed to you like a river, deliverance would have come to you like the waves of the sea.
+- (`2Cor 13:11`) Finally, brothers and sisters, rejoice, set things right, be encouraged, agree with one another, live in peace, and the God of love and peace will be with you.
+- (`Rom 14:17`) For the kingdom of God does not consist of food and drink, but righteousness, peace, and joy in the Holy Spirit.
+- (`Rom 5:1`) Therefore, since we have been declared righteous by faith, we have peace with God through our Lord Jesus Christ,
+- (`Luke 2:14`) “Glory to God in the highest, and on earth peace among people with whom he is pleased!”
+- (`Isa 48:22`) There will be no prosperity for the wicked,” says the Lord.
+- (`Isa 45:7`) I am the one who forms light and creates darkness; the one who brings about peace and creates calamity. I am the Lord, who accomplishes all these things.
+- (`Isa 26:12`) O Lord, you make us secure, for even all we have accomplished, you have done for us.
+- (`Prov 4:6`) Do not forsake wisdom, and she will protect you; love her, and she will guard you.
+- (`Prov 2:11`) Discretion will protect you, understanding will guard you,
+- (`Ps 85:8`) I will listen to what God the Lord says. For he will make peace with his people, his faithful followers. Yet they must not return to their foolish ways.
+- (`Ps 29:11`) The Lord gives his people strength; the Lord grants his people security.
+- (`Job 34:29`) But if God is quiet, who can condemn him? If he hides his face, then who can see him? Yet he is over the individual and the nation alike,
+- (`Job 22:21`) “Reconcile yourself with God, and be at peace with him; in this way your prosperity will be good.
+- (`Num 6:26`) The Lord lift up his countenance upon you and give you peace.”’
+- (`Rev 2:17`) The one who has an ear had better hear what the Spirit says to the churches. To the one who conquers, I will give him some of the hidden manna, and I will give him a white stone, and on that stone will be written a new name that no one can understand except the one who receives it.’
+- (`Jude 1:1`) From Jude, a slave of Jesus Christ and brother of James, to those who are called, wrapped in the love of God the Father and kept for Jesus Christ.
+- (`1Pet 1:4-5`) 4 that is, into an inheritance imperishable, undefiled, and unfading. It is reserved in heaven for you, 5 who by God’s power are protected through faith for a salvation ready to be revealed in the last time.
+- (`Phil 1:2`) Grace and peace to you from God our Father and the Lord Jesus Christ!
+- (`Gal 5:22`) But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness,
+- (`Rom 1:7`) To all those loved by God in Rome, called to be saints: Grace and peace to you from God our Father and the Lord Jesus Christ!
+- (`Luke 1:79`) to give light to those who sit in darkness and in the shadow of death, to guide our feet into the way of peace.”
+- (`Jer 33:6`) But I will most surely heal the wounds of this city and restore it and its people to health. I will show them abundant peace and security.
+- (`Isa 57:19-21`) 19 I am the one who gives them reason to celebrate. Complete prosperity is available both to those who are far away and those who are nearby,” says the Lord, “and I will heal them. 20 But the wicked are like a surging sea that is unable to be quiet; its waves toss up mud and sand. 21 There will be no prosperity,” says my God, “for the wicked.”
+- (`Neh 8:10`) He said to them, “Go and eat delicacies and drink sweet drinks and send portions to those for whom nothing is prepared. For this day is holy to our Lord. Do not grieve, for the joy of the Lord is your strength.”
+- (`Rev 1:4`) From John, to the seven churches that are in the province of Asia: Grace and peace to you from “he who is,” and who was, and who is still to come, and from the seven spirits who are before his throne,
+- (`Heb 13:20`) Now may the God of peace who by the blood of the eternal covenant brought back from the dead the great shepherd of the sheep, our Lord Jesus,
+- (`Phil 4:9`) And what you learned and received and heard and saw in me, do these things. And the God of peace will be with you.
+- (`Isa 55:11-12`) 11 In the same way, the promise that I make does not return to me, having accomplished nothing. No, it is realized as I desire and is fulfilled as I intend.” 12 Indeed you will go out with joy; you will be led along in peace; the mountains and hills will give a joyful shout before you, and all the trees in the field will clap their hands.
+
+---
