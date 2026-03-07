@@ -70,24 +70,6 @@ Stdin input is also supported:
 echo "In-depth study of John 3:16" | bibleagent -b ollamacloud -m gemini-3-flash-preview -cw 1048576 -mt 65536 -docx
 ```
 
-## Use it as a python library
-
-```
-from biblemateagent import bible_agent
-
-messages = bible_agent(
-    request="In-depth study of John 3:16",
-    language="eng",
-    improve_prompt=False,
-    md_export=False,
-    docx_export=False,
-    output_directory="",
-    developer=False,
-    cancel_event=None,
-    **kwargs
-)
-```
-
 # BibleMate AI Suite
 
 Check out the BibleMate AI Suite at https://github.com/eliranwong/biblemate

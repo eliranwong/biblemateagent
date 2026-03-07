@@ -2,7 +2,7 @@ import asyncio
 import re
 import os
 import shutil
-import pypandoc
+import pydoc
 import traceback
 from copy import deepcopy
 
@@ -35,10 +35,9 @@ def do_export(content, filename, md_export=True, docx_export=False, output_direc
             return
         try:
             docx_filepath = os.path.join(output_directory, f"{filename}.docx")
-            pypandoc.convert_text(content, 'docx', format='md', outputfile=docx_filepath)
+            docx_filepath.replace('"', "_")
+            pydoc.pipepager(content, cmd=f'''pandoc -f markdown -t docx -o "{docx_filepath}"''')
             print(f"\n\n---\n\nExported to: {docx_filepath}\n\n---\n")
-        except ImportError:
-            print("pypandoc not installed. Skipping DOCX export.")
         except Exception as e:
             print(f"Error exporting to DOCX: {e}")
 
@@ -130,9 +129,9 @@ Please provide a comprehensive response that resolves my original request, ensur
 
     original_user_request = MASTER_USER_REQUEST
     if improve_prompt:
-        print("\n--- Improving Prompt ---\n")
+        print("\n--- Refining Your Request ---\n")
         user_request = await stream_output(
-            MESSAGES, MASTER_USER_REQUEST, cancel_event, system="improve_prompt_2", **kwargs
+            MESSAGES, MASTER_USER_REQUEST+"\n\n# Remember\n\nYour role is to refine the request given above, not to answer the request.", cancel_event, system="improve_prompt_2", **kwargs
         )
         if user_request and user_request.strip() != "[NO_CONTENT]":
             if "```" in user_request:
