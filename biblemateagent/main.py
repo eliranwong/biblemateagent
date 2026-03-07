@@ -12,6 +12,7 @@ parser.add_argument("-e", "--api_endpoint", action="store", dest="api_endpoint",
 parser.add_argument("-mt", "--max_tokens", action="store", dest="max_tokens", type=int, help="max tokens option")
 parser.add_argument("-cw", "--context_window", action="store", dest="context_window", type=int, help="context window option")
 parser.add_argument("-t", "--temperature", action="store", dest="temperature", type=float, help="temperature option")
+parser.add_argument("-tk", "--think", action="store", dest="think", choices=["low", "medium", "high"], help="think option")
 parser.add_argument("-p", "--improve_prompt", action="store_true", dest="improve_prompt", help="improve user prompt")
 parser.add_argument("-d", "--developer", action="store_true", dest="developer", help="developer mode")
 parser.add_argument("-md", "--md_export", action="store_true", dest="md_export", help="export outputs in markdown format")
@@ -29,6 +30,8 @@ async def main_async():
     kwargs["max_tokens"] = args.max_tokens if args.max_tokens else None
     kwargs["context_window"] = args.context_window if args.context_window else None
     kwargs["temperature"] = args.temperature if args.temperature else None
+    if args.think:
+        kwargs["think"] = args.think
     
     user_requests = []
     if args.default is not None:

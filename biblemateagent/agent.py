@@ -25,9 +25,12 @@ def do_export(content, filename, md_export=True, docx_export=False, output_direc
     
     if md_export:
         md_filepath = os.path.join(output_directory, f"{filename}.md")
-        with open(md_filepath, "w", encoding="utf-8") as f:
-            f.write(content)
-        print(f"\n\n---\n\nExported to: {md_filepath}\n\n---\n")
+        try:
+            with open(md_filepath, "w", encoding="utf-8") as f:
+                f.write(content)
+            print(f"\n\n---\n\nExported to: {md_filepath}\n\n---\n")
+        except Exception as e:
+            print(f"Error exporting to MD: {e}")
     
     if docx_export:
         if not shutil.which("pandoc"):
@@ -55,6 +58,7 @@ async def bible_agent(
 
     if not output_directory:
         output_directory = os.getcwd()
+    output_directory = os.path.abspath(output_directory)
 
     MESSAGES = None
     MASTER_PLAN = None
@@ -108,13 +112,15 @@ Please provide a comprehensive response that resolves my original request, ensur
         context_window=kwargs.get("context_window", None),
         temperature=kwargs.get("temperature", None),
         print_on_terminal=False,
+        **{"think": kwargs.get("think")} if "think" in kwargs else {},
     )
     timestamp = getCurrentDateTime()
     if generated_title_output:
         generated_title = generated_title_output[-1].get("content", "").strip().replace("Title: ", "")
         if not generated_title == "[NO_CONTENT]":
             print(f"\n[TITLE] {generated_title}\n")
-            study_directory = f"{timestamp}_{generated_title}"
+            sanitized_title = re.sub(r"[^a-zA-Z0-9_\u4e00-\u9fff\s\-\.]+", "_", generated_title)
+            study_directory = f"{timestamp}_{sanitized_title}"
             output_directory = os.path.join(output_directory, study_directory)
         else:
             study_directory = f"{timestamp}_biblemate_study"
