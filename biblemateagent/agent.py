@@ -173,6 +173,7 @@ Please provide a comprehensive response that resolves my original request, ensur
         if original_user_request == MASTER_USER_REQUEST:
             content += f"# Request\n\n{MASTER_USER_REQUEST}\n\n# Master Plan\n\n{MASTER_PLAN}"
         else:
+            original_user_request = original_user_request.strip()
             content += f"# Original Request\n\n{original_user_request}\n\n# Refined Request\n\n{MASTER_USER_REQUEST}\n\n# Master Plan\n\n{MASTER_PLAN}"
         do_export(content, filename, md_export, docx_export, output_directory)
 
