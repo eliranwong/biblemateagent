@@ -1,8 +1,6 @@
 import asyncio
 import re
 import os
-import shutil
-import pydoc
 import traceback
 from copy import deepcopy
 
@@ -14,40 +12,12 @@ from biblemateweb.mcp_tools.tool_descriptions import TOOL_DESCRIPTIONS
 from biblemateweb.api.api import get_api_content
 from biblemate.core.systems import get_system_tool_instruction, get_system_master_plan, get_system_make_suggestion, get_system_progress, get_system_generate_title
 from agentmake import agentmake, readTextFile, getCurrentDateTime, DEFAULT_AI_BACKEND
-
-def do_export(content, filename, md_export=True, docx_export=False, output_directory=None):
-
-    # sanitize filename, but accept chinese characters
-    filename = re.sub(r"[^a-zA-Z0-9_\u4e00-\u9fff]+", "_", filename)
-
-    if not os.path.isdir(output_directory):
-        os.makedirs(output_directory)
-    
-    if md_export:
-        md_filepath = os.path.join(output_directory, f"{filename}.md")
-        try:
-            with open(md_filepath, "w", encoding="utf-8") as f:
-                f.write(content)
-            print(f"\n\n---\n\nExported to: {md_filepath}\n\n---\n")
-        except Exception as e:
-            print(f"Error exporting to MD: {e}")
-    
-    if docx_export:
-        if not shutil.which("pandoc"):
-            print("Pandoc is not installed. Skipping DOCX export.")
-            return
-        try:
-            docx_filepath = os.path.join(output_directory, f"{filename}.docx")
-            docx_filepath.replace('"', "_")
-            pydoc.pipepager(content, cmd=f'''pandoc -f markdown -t docx -o "{docx_filepath}"''')
-            print(f"\n\n---\n\nExported to: {docx_filepath}\n\n---\n")
-        except Exception as e:
-            print(f"Error exporting to DOCX: {e}")
+from biblemateagent import do_export
 
 async def bible_agent(
     request="",
     language="eng",
-    improve_prompt=False,
+    prompt_refinement=False,
     md_export=False,
     docx_export=False,
     output_directory="",
@@ -56,9 +26,9 @@ async def bible_agent(
     **kwargs
 ):
 
-    if not output_directory:
-        output_directory = os.getcwd()
-    output_directory = os.path.abspath(output_directory)
+    if not request or not request.strip():
+        print("Please provide a request.")
+        return None
 
     MESSAGES = None
     MASTER_PLAN = None
@@ -95,10 +65,10 @@ Please provide a comprehensive response that resolves my original request, ensur
 # Original Request
 """
 
-    if not MASTER_USER_REQUEST or not MASTER_USER_REQUEST.strip():
-        print("Please provide a request.")
-        return None
-    
+    if not output_directory:
+        output_directory = os.getcwd()
+    output_directory = os.path.abspath(output_directory)
+
     # generate title
     generated_title = ""
     generated_title_output = agentmake(
@@ -134,7 +104,7 @@ Please provide a comprehensive response that resolves my original request, ensur
     MESSAGES = deepcopy(DEFAULT_MESSAGES)
 
     original_user_request = MASTER_USER_REQUEST
-    if improve_prompt:
+    if prompt_refinement:
         print("\n--- Refining Your Request ---\n")
         user_request = await stream_output(
             MESSAGES, MASTER_USER_REQUEST+"\n\n# Remember\n\nYour role is to refine the request given above, not to answer the request.", cancel_event, system="improve_prompt_2", **kwargs
@@ -238,7 +208,7 @@ Please provide a comprehensive response that resolves my original request, ensur
                     element = TOOL_ELEMENTS.get(selected_tool)
                     if isinstance(element, str):
                         print(f"Loading {selected_tool}...")
-                        if not selected_tool == "search_the_whole_bible":
+                        if not selected_tool.startswith("search_"):
                             user_req = chapter2verses(user_request)
                         else:
                             user_req = user_request

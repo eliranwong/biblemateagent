@@ -2,7 +2,11 @@
 
 A headless version of BibleMate AI Agent Mode
 
-Support md and docx export 
+* supports study plan, multiple tools orchestrations
+* supports single tool execution
+* supports prompt refinement
+* supports md and docx export of outputs
+* supports developer mode
 
 ## Installation
 
@@ -10,11 +14,7 @@ Support md and docx export
 pip install biblemateagent
 ```
 
-or
-
-```
-pip install bibleagent
-```
+Install CLI tool `pandoc` separately to support DOCX export
 
 ## Set up data
 
@@ -68,6 +68,31 @@ Stdin input is also supported:
 
 ```
 echo "In-depth study of John 3:16" | bibleagent -b ollamacloud -m gemini-3-flash-preview -cw 1048576 -mt 65536 -docx
+```
+
+# Single Tool Execution
+
+```
+bibleagent --tool get_direct_text_response "Your Bible Study Request"
+```
+
+or
+
+```
+bibleagent --tool auto "Your Bible Study Request"
+```
+
+## Tool Description
+
+```
+bibleagent --tool_description
+```
+
+# Use as a Python Libary
+
+```
+from biblemateagent.agent import bible_agent
+from biblemateagent.tool import run_single_tool
 ```
 
 # Comparison Tests with Different AI Models
