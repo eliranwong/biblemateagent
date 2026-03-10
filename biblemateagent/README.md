@@ -14,6 +14,8 @@ A headless version of BibleMate AI Agent Mode
 pip install biblemateagent
 ```
 
+Install CLI tool `pandoc` separately to support DOCX export
+
 ## Set up data
 
 ```
@@ -84,6 +86,13 @@ bibleagent --tool auto "Your Bible Study Request"
 
 ```
 bibleagent --tool_description
+```
+
+# Use as a Python Libary
+
+```
+from biblemateagent.agent import bible_agent
+from biblemateagent.tool import run_single_tool
 ```
 
 # Comparison Tests with Different AI Models
