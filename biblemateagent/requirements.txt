@@ -1,1 +1,1 @@
-biblemateweb>=0.3.59
+biblemateweb>=0.3.63

@@ -5,13 +5,13 @@ import traceback
 from copy import deepcopy
 
 from biblemateagent.stream import stream_output
-from biblemateweb import BIBLEMATEWEB_APP_DIR, get_translation, DEFAULT_MESSAGES, chapter2verses
+from biblemateweb import BIBLEMATEWEB_APP_DIR, DEFAULT_MESSAGES, chapter2verses
 from biblemateweb.mcp_tools.elements import TOOL_ELEMENTS
 from biblemateweb.mcp_tools.tools import TOOLS
-from biblemateweb.mcp_tools.tool_descriptions import TOOL_DESCRIPTIONS
 from biblemateweb.api.api import get_api_content
 from biblemate.core.systems import get_system_tool_instruction, get_system_master_plan, get_system_make_suggestion, get_system_progress, get_system_generate_title
 from agentmake import agentmake, readTextFile, getCurrentDateTime, DEFAULT_AI_BACKEND
+from agentmake.tools.search.ollamacloud import ollama_web_search
 from biblemateagent import do_export
 
 async def bible_agent(
@@ -30,13 +30,17 @@ async def bible_agent(
         print("Please provide a request.")
         return None
 
+    if os.getenv("OLLAMACLOUD_API_KEY"):
+        TOOL_ELEMENTS["web_search"] = "web_search"
+        TOOLS["web_search"] = "online web search for additional information; search string must be given"
+    
     MESSAGES = None
     MASTER_PLAN = None
     PROGRESS_STATUS = None
     ROUND = 1
     MASTER_USER_REQUEST = request
 
-    SYSTEM_TOOL_SELECTION = readTextFile(os.path.join(BIBLEMATEWEB_APP_DIR, "mcp_tools", "system_tool_selection_lite.md"))
+    SYSTEM_TOOL_SELECTION = readTextFile(os.path.join(BIBLEMATEWEB_APP_DIR, "mcp_tools", "system_tool_selection_mini_web.md" if os.getenv("OLLAMACLOUD_API_KEY") else "system_tool_selection_mini.md"))
 
     TOOL_INSTRUCTION_PROMPT = """Please transform the following suggestions into clear, precise, and actionable instructions."""
     TOOL_INSTRUCTION_SUFFIX = """
@@ -123,9 +127,11 @@ Please provide a comprehensive response that resolves my original request, ensur
 
     # Generate master plan
     print("\n--- Generating Study Plan ---\n")
+    available_tools = list(TOOL_ELEMENTS.keys())
+    available_tools_desciption = "\n\n".join([f'# TOOL DESCRIPTION: `{i}`\n'+TOOLS.get(i) for i in TOOL_ELEMENTS])
     master_plan_prompt = MASTER_PLAN_PROMPT_TEMPLATE.format(
-        available_tools=list(TOOLS.keys()), 
-        tool_descriptions=TOOL_DESCRIPTIONS, 
+        available_tools=available_tools, 
+        tool_descriptions=available_tools_desciption, 
         user_request=MASTER_USER_REQUEST
     )
     
@@ -204,6 +210,9 @@ Please provide a comprehensive response that resolves my original request, ensur
             try:
                 if selected_tool == "get_direct_text_response":
                     answers = await stream_output(MESSAGES, user_request, cancel_event, system="auto", **kwargs)
+                elif selected_tool == "web_search":
+                    answers = await asyncio.to_thread(ollama_web_search, user_request)
+                    print(answers)
                 else:
                     element = TOOL_ELEMENTS.get(selected_tool)
                     if isinstance(element, str):
@@ -224,7 +233,7 @@ Please provide a comprehensive response that resolves my original request, ensur
                         answers = await stream_output(MESSAGES, user_request, cancel_event, system=system, **element, **kwargs)
                         
             except Exception as e:
-                answers = f"[{get_translation('Error')}: {str(e)}]"
+                answers = f"[Error: {str(e)}]"
                 print(f"\n{answers}\n")
                 if developer:
                     traceback.print_exc()
