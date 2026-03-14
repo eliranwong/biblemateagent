@@ -2,6 +2,14 @@ import re
 import os
 import shutil
 import pydoc
+from agentmake import load_configurations
+from biblemateweb.mcp_tools.tools import TOOLS
+from biblemateweb.mcp_tools.elements import TOOL_ELEMENTS
+
+load_configurations()
+if os.getenv("OLLAMACLOUD_API_KEY"):
+    TOOL_ELEMENTS["search_the_internet"] = "search_the_internet"
+    TOOLS["search_the_internet"] = "search the internet for additional online information; search string must be given"
 
 def do_export(content, filename, md_export=True, docx_export=False, output_directory=None):
 

@@ -1,14 +1,9 @@
 import asyncio, argparse, sys, os
-from agentmake import SUPPORTED_AI_BACKENDS, DEFAULT_AI_BACKEND, load_configurations
-from biblemateweb.mcp_tools.tools import TOOLS
-from biblemateweb.mcp_tools.elements import TOOL_ELEMENTS
+from agentmake import SUPPORTED_AI_BACKENDS, DEFAULT_AI_BACKEND
+from biblemateagent import TOOLS, TOOL_ELEMENTS
 from biblemateagent.agent import bible_agent
 from biblemateagent.tool import run_single_tool
 
-load_configurations()
-if os.getenv("OLLAMACLOUD_API_KEY"):
-    TOOL_ELEMENTS["web_search"] = "web_search"
-    TOOLS["web_search"] = "online web search for additional information; search string must be given"
 
 parser = argparse.ArgumentParser(description = f"""BibleMate AI Agent""")
 parser.add_argument("default", nargs="*", default=None, help="user request")
@@ -31,10 +26,6 @@ parser.add_argument("-d", "--developer", action="store_true", dest="developer", 
 args = parser.parse_args()
 
 async def main_async():
-
-    if os.getenv("OLLAMACLOUD_API_KEY"):
-        TOOL_ELEMENTS["web_search"] = "web_search"
-        TOOLS["web_search"] = "online web search for additional information; search string must be given"
 
     if args.tool_description:
         print(f"\n[Tool: auto]\n")
@@ -91,7 +82,7 @@ async def main_async():
             developer=args.developer if args.developer else False,
             **kwargs,
         )
-    print("\n---\n\nFinished")
+    print("\n--- Finished ---")
 
 def main():
     asyncio.run(main_async())

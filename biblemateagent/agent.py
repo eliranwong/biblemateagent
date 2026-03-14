@@ -6,13 +6,11 @@ from copy import deepcopy
 
 from biblemateagent.stream import stream_output
 from biblemateweb import BIBLEMATEWEB_APP_DIR, DEFAULT_MESSAGES, chapter2verses
-from biblemateweb.mcp_tools.elements import TOOL_ELEMENTS
-from biblemateweb.mcp_tools.tools import TOOLS
 from biblemateweb.api.api import get_api_content
 from biblemate.core.systems import get_system_tool_instruction, get_system_master_plan, get_system_make_suggestion, get_system_progress, get_system_generate_title
 from agentmake import agentmake, readTextFile, getCurrentDateTime, DEFAULT_AI_BACKEND
 from agentmake.tools.search.ollamacloud import ollama_web_search
-from biblemateagent import do_export
+from biblemateagent import do_export, TOOLS, TOOL_ELEMENTS
 
 async def bible_agent(
     request="",
@@ -30,10 +28,6 @@ async def bible_agent(
         print("Please provide a request.")
         return None
 
-    if os.getenv("OLLAMACLOUD_API_KEY"):
-        TOOL_ELEMENTS["web_search"] = "web_search"
-        TOOLS["web_search"] = "online web search for additional information; search string must be given"
-    
     MESSAGES = None
     MASTER_PLAN = None
     PROGRESS_STATUS = None
@@ -147,10 +141,10 @@ Please provide a comprehensive response that resolves my original request, ensur
         filename = f"00_request_and_master_plan"
         content = f"# Title\n\n{generated_title}\n\n" if generated_title else ""
         if original_user_request == MASTER_USER_REQUEST:
-            content += f"# Request\n\n{MASTER_USER_REQUEST}\n\n# Master Plan\n\n{MASTER_PLAN}"
+            content += f"---\n\n# Request\n\n---\n\n{MASTER_USER_REQUEST}\n\n---\n\n# Master Plan\n\n---\n\n{MASTER_PLAN}"
         else:
             original_user_request = original_user_request.strip()
-            content += f"# Original Request\n\n{original_user_request}\n\n# Refined Request\n\n{MASTER_USER_REQUEST}\n\n# Master Plan\n\n{MASTER_PLAN}"
+            content += f"---\n\n# Original Request\n\n---\n\n{original_user_request}\n\n---\n\n# Refined Request\n\n---\n\n{MASTER_USER_REQUEST}\n\n---\n\n# Master Plan\n\n---\n\n{MASTER_PLAN}"
         do_export(content, filename, md_export, docx_export, output_directory)
 
     PROGRESS_STATUS = "START"
@@ -210,7 +204,7 @@ Please provide a comprehensive response that resolves my original request, ensur
             try:
                 if selected_tool == "get_direct_text_response":
                     answers = await stream_output(MESSAGES, user_request, cancel_event, system="auto", **kwargs)
-                elif selected_tool == "web_search":
+                elif selected_tool == "search_the_internet":
                     answers = await asyncio.to_thread(ollama_web_search, user_request)
                     print(answers)
                 else:

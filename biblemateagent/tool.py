@@ -6,11 +6,9 @@ from copy import deepcopy
 
 from biblemateagent.stream import stream_output
 from biblemateweb import chapter2verses, DEFAULT_MESSAGES, BIBLEMATEWEB_APP_DIR
-from biblemateweb.mcp_tools.elements import TOOL_ELEMENTS
-from biblemateweb.mcp_tools.tools import TOOLS
 from biblemateweb.api.api import get_api_content
 from biblemate.core.systems import get_system_tool_instruction, get_system_generate_title
-from biblemateagent import do_export
+from biblemateagent import do_export, TOOLS, TOOL_ELEMENTS
 from agentmake import agentmake, readTextFile, getCurrentDateTime, DEFAULT_AI_BACKEND
 from agentmake.tools.search.ollamacloud import ollama_web_search
 
@@ -35,10 +33,6 @@ async def run_single_tool(
     if not request or not request.strip():
         print("Please provide a request.")
         return None
-
-    if os.getenv("OLLAMACLOUD_API_KEY"):
-        TOOL_ELEMENTS["web_search"] = "web_search"
-        TOOLS["web_search"] = "online web search for additional information; search string must be given"
 
     original_user_request = request
 
@@ -141,7 +135,7 @@ async def run_single_tool(
     try:
         if selected_tool == "get_direct_text_response":
             answers = await stream_output(MESSAGES, user_request, cancel_event, system="auto", **kwargs)
-        elif selected_tool == "web_search":
+        elif selected_tool == "search_the_internet":
             answers = await asyncio.to_thread(ollama_web_search, user_request)
             print(answers)
         else:
