@@ -13,3 +13,7 @@ cat tested_request.md | bibleagent -p -md -docx -b ollamacloud -tk high -m qwen3
 cat tested_request.md | bibleagent -p -md -docx -b ollamacloud -tk high -m minimax-m2.5 -cw 200000 -mt 65536 -o ollama_minimax-m2.5
 
 cat tested_request.md | bibleagent -p -md -docx -b ollamacloud -tk high -m glm-5 -cw 200000 -mt 65536 -o ollama_glm-5
+
+cat tested_request.md | bibleagent -p -md -docx -b ollamacloud -tk high -m gemma4:31b -cw 256000 -mt 65536 -o ollama_gemma4-31b
+
+cat tested_request.md | bibleagent -p -md -docx -b ollamacloud -tk high -m minimax-m2.7 -cw 200000 -mt 65536 -o ollama_minimax-m2.7
